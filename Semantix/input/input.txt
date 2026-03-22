@@ -1,0 +1,4 @@
+DECLARE a AS 5
+DECLARE b AS 10
+SET c TO a + b * 2
+PRINT c
