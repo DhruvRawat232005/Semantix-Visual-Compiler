@@ -1,4 +1,4 @@
-# Semantix — Visual Language Analyzer
+# Semantix — Visual Language Compiler
 
 Semantix is a visual compiler-like system for an English-like programming language. It demonstrates key compiler design phases including lexical analysis, syntax analysis, and Abstract Syntax Tree (AST) generation, with an interactive frontend for visualization.
 
