@@ -43,14 +43,4 @@ Semantix is a visual compiler-like system for an English-like programming langua
 
 ## Working 
 
-User Input
-   ↓
-Lexical Analysis (Flex)
-   ↓
-Token Stream
-   ↓
-Recursive Descent Parser
-   ↓
-AST Generation
-   ↓
-Frontend Visualization
+User Input -> Lexical Analysis (Flex) -> Token Stream -> Recursive Descent Parser -> AST Generation -> Frontend Visualization
