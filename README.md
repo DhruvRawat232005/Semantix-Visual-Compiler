@@ -11,6 +11,7 @@ Semantix is a visual compiler-like system for an English-like programming langua
 - Recursive Descent Parser implemented in C
 - Abstract Syntax Tree (AST) generation
 - Syntax error detection
+- Symbol Table generation
 - Interactive frontend using Streamlit
 - Visual representation of compiler phases
 
@@ -39,8 +40,11 @@ Semantix is a visual compiler-like system for an English-like programming langua
 ### Abstract Syntax Tree Construction
 <img width="1038" height="792" alt="Screenshot 2026-03-22 125302" src="https://github.com/user-attachments/assets/29117b89-c8dd-4398-ad82-99bad7cef7a0" />
 
+### Symbol Table 
+<img width="1132" height="440" alt="Screenshot 2026-04-05 205119" src="https://github.com/user-attachments/assets/60117499-3590-4117-9ec5-dcb4305ec1aa" />
+
 ---
 
 ## Working 
 
-User Input -> Lexical Analysis (Flex) -> Token Stream -> Recursive Descent Parser -> AST Generation -> Frontend Visualization
+User Input -> Lexical Analysis (Flex) -> Token Stream -> Recursive Descent Parser -> AST Generation -> Symbol Table generation -> Frontend Visualization
