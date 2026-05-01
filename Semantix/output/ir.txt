@@ -1,0 +1,5 @@
+a = 5
+b = 8
+t1 = a + b
+c = t1
+PRINT c
